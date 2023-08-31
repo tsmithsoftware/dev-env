@@ -17,13 +17,13 @@ The AWS CLI v2 should be installed and on the system path. The AWS_PROFILE envir
 
 <pre>
  cat ~/.aws/config
-[profile PowerUserAccess-299583844178]
-sso_session = timsmithdev
-sso_account_id = 299583844178
-sso_role_name = PowerUserAccess
+[profile myprofile8]
+sso_session = ssoname
+sso_account_id = aws_account_id
+sso_role_name = rolename
 region = eu-west-2
 [sso-session timsmithdev]
-sso_start_url = https://d-9c6774ac45.awsapps.com/start#
+sso_start_url = https://my-org-start-url
 sso_region = eu-west-2
 sso_registration_scopes = sso:account:access
 </pre>
